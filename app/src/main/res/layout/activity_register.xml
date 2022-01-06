@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/register_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_below="@+id/register_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/register_contact"
+        android:layout_below="@+id/register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/register_save"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="457dp"
+        android:background="#388E3C"
+        android:gravity="center"
+        android:text="Save"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>
